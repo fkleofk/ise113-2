@@ -1,0 +1,13 @@
+body {
+  background-color: #51d4f8;
+  color: rgb(255, 255, 255);
+}
+.content-title {
+  font-family: 標楷體, Courier, monospace;
+  font-weight: 200;
+  color: rgb(18, 18, 241);
+  letter-spacing: 1rem;
+}
+.logo {
+  height: 100px;
+}
