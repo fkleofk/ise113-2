@@ -1,0 +1,29 @@
+.blog{
+
+}
+body{
+  background: var(--grey-light);
+  color: var(--grey-dark);
+  font-size: 12px;
+}
+.img{
+  width: auto;
+  height: 12rem;
+  display: block;
+  object-fit: cover;
+}
+.blogs{
+  padding: 5rem 0;
+}
+.section-title{
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem;
+  letter-spacing: 2px;
+}
+.blogs-center{
+  width: 500px;
+}
+.blog-img{
+
+}
