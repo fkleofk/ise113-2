@@ -23,12 +23,24 @@ body{
   border-radius: 50%;
   margin: 0 auto;
 }
+.card-1 .icon{
+  background: #ff69a6;
+}
+.card-2 .icon{
+  background: cyan;
+}
 .btn{
-
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border: transparent;
+  border-radius: 0.5rem;
+  letter-spacing: 2px;
 }
 .btn-1{
-
+  background: #ffe8f1;
+  color: #ff69a6;
 }
 .btn-2{
-
+  background: #ecf4ff;
+  color: cyan;
 }
