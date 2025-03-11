@@ -1,0 +1,91 @@
+body {
+  background: #f1f5f9;
+  /* 設置背景顏色為 #f1f5f9 */
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  /* 設置字體系列，優先使用系統字體 */
+}
+
+.card {
+  background: #ffffff;
+  /* 設置背景顏色為白色 */
+
+  padding: 1.5rem 2rem;
+  /* 設置內邊距為 1.5rem 上下和 2rem 左右 */
+
+  text-align: center;
+  /* 設置文本對齊方式為居中 */
+
+  max-width: 300px;
+  /* 設置最大寬度為 300px */
+
+  margin: 3rem;
+  /* 設置外邊距為 3rem */
+
+  border-radius: 0.5rem;
+  /* 設置邊框圓角為 0.5rem */
+
+  border: 1px solid transparent;
+  /* 設置邊框為 1px 寬的透明實線 */
+}
+
+.card-1 {
+  border-color: #ff69a6;
+  /* 設置邊框顏色為 #ff69a6 */
+}
+
+.card-2 {
+  border-color: #68a3ff;
+  /* 設置邊框顏色為 #68a3ff */
+}
+  
+.icon {
+  width: 40px;
+  /* 設置寬度為 40px */
+
+  height: 40px;
+  /* 設置高度為 40px */
+
+  border-radius: 50%;
+  /* 設置邊框圓角為 50%，使其成為圓形 */
+
+  margin: 0 auto;
+  /* 設置外邊距為自動，居中對齊 */
+}
+
+.card-1 .icon {
+  background: #ff69a6;
+  /* 設置背景顏色為 #ff69a6 */
+}
+
+.card-2 .icon {
+  background: #68a3ff;
+  /* 設置背景顏色為 #68a3ff */
+}
+
+.btn {
+  text-transform: capitalize;
+  /* 設置文本轉換為首字母大寫 */
+
+  padding: 0.5rem 1rem;
+  /* 設置內邊距為 0.5rem 上下和 1rem 左右 */
+
+  border: transparent;
+  /* 設置邊框為透明 */
+
+  border-radius: 0.5rem;
+  /* 設置邊框圓角為 0.5rem */
+
+  letter-spacing: 2px;
+  /* 設置字母間距為 2px */
+}
+
+.btn-1 {
+  background: #ffe8f1;
+  color: #ff69a6;
+}
+
+.btn-2 {
+  background: #ecf4ff;
+  color: #68a3ff;
+}
