@@ -1,6 +1,18 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 550px;
+  background-color: rgb(252, 243, 231);
+}
 iframe {
   width: 80%;
-  height: 500px;
+  height: 600px;
+  overflow: visible;
 }
 .classdemo {
   display: flex;
@@ -8,21 +20,32 @@ iframe {
   justify-content: center;
   align-items: center;
 }
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .nav {
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
   display: flex;
+  position: relative;
   height: 120px;
   justify-content: space-between;
   align-items: center;
   &-img,
   img {
     height: inherit;
+  }
+  &-link {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    position: absolute;
+    right: 5rem;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: rgb(255, 153, 0);
+      }
+    }
   }
 }
