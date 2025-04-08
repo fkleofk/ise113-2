@@ -2,12 +2,14 @@ iframe {
   width: 80%;
   height: 500px;
 }
+
 .classdemo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 ::after,
 ::before {
   margin: 0;
@@ -21,8 +23,10 @@ iframe {
   height: 120px;
   justify-content: space-between;
   align-items: center;
-  &-img,
-  img {
-    height: inherit;
-  }
 }
+.nav-img,
+.nav img {
+  height: inherit;
+}
+
+/*# sourceMappingURL=index.css.map */
