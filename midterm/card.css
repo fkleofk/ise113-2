@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f6fc;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid transparent; /* 預設透明 */
+    transition: 0.3s;
+  }
+  
+  .card img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  /* 不同主題色 */
+  .pink {
+    background-color: #ffc0cb;
+  }
+  
+  .blue {
+    background-color: #add8e6;
+  }
+  
+  .green {
+    background-color: #90ee90;
+  }
+  
+  .yellow {
+    background-color: #ffcc66;
+  }
+  
+  /* 邊框色 */
+  .pink-border {
+    border-color: #ffc0cb;
+  }
+  
+  .blue-border {
+    border-color: #add8e6;
+  }
+  
+  .green-border {
+    border-color: #90ee90;
+  }
+  
+  .yellow-border {
+    border-color: #ffcc66;
+  }
+  
