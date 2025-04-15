@@ -1,103 +1,143 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f6fc;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .card {
-    background-color: #fff;
-    border-radius: 10px;
-    width: 250px;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  background: #f1f5f9;
+  /* 設置背景顏色為 #f1f5f9 */
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  /* 設置字體系列，優先使用系統字體 */
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.card-center {
+  max-width: fit-content;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+  .card-center {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 2px solid transparent; /* 預設透明 */
-    transition: 0.3s;
   }
-  
-  .card img {
-    border-radius: 8px;
-    width: 100%;
-    height: auto;
-  }
-  
-  h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-  
-  .card-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: auto;
-  }
-  
-  .avatar {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #ddd;
-  }
-  
-  .btn {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    color: #fff;
-    font-size: 14px;
-  }
-  
-  /* 不同主題色 */
-  .pink {
-    background-color: #ffc0cb;
-  }
-  
-  .blue {
-    background-color: #add8e6;
-  }
-  
-  .green {
-    background-color: #90ee90;
-  }
-  
-  .yellow {
-    background-color: #ffcc66;
-  }
-  
-  /* 邊框色 */
-  .pink-border {
-    border-color: #ffc0cb;
-  }
-  
-  .blue-border {
-    border-color: #add8e6;
-  }
-  
-  .green-border {
-    border-color: #90ee90;
-  }
-  
-  .yellow-border {
-    border-color: #ffcc66;
-  }
-  
+}
+
+.card-center2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem;
+  letter-spacing: 2px;
+}
+
+.card {
+  background: #ffffff;
+  /* 設置背景顏色為白色 */
+
+  padding: 1.5rem 2rem;
+  /* 設置內邊距為 1.5rem 上下和 2rem 左右 */
+
+  text-align: center;
+  /* 設置文本對齊方式為居中 */
+
+  max-width: 300px;
+  /* 設置最大寬度為 300px */
+
+  margin: 1rem;
+  /* 設置外邊距為 1rem */
+
+  border-radius: 0.5rem;
+  /* 設置邊框圓角為 0.5rem */
+
+  border: 1px solid transparent;
+  /* 設置邊框為 1px 寬的透明實線 */
+  transition: 0.5s ease-in-out all;
+}
+.cards {
+}
+.card-1 {
+  border-color: #ff69a6;
+}
+
+.card-2 {
+  border-color: #68a3ff;
+}
+
+.card-3 {
+  border-color: #29b14b;
+}
+
+.card-4 {
+  border-color: #b0b223;
+}
+
+.under {
+  display: flex;
+  align-items: center; /* 垂直置中 */
+  gap: 8rem;
+}
+
+.icon {
+  width: 40px;
+  /* 設置寬度為 40px */
+
+  height: 40px;
+  /* 設置高度為 40px */
+
+  border-radius: 50%;
+  /* 設置邊框圓角為 50%，使其成為圓形 */
+
+  margin-left: 1rem;
+}
+
+.btn {
+  text-transform: capitalize;
+  /* 設置文本轉換為首字母大寫 */
+
+  padding: 0.5rem 1rem;
+  /* 設置內邊距為 0.5rem 上下和 1rem 左右 */
+
+  border: transparent;
+  /* 設置邊框為透明 */
+
+  border-radius: 0.5rem;
+  /* 設置邊框圓角為 0.5rem */
+
+  letter-spacing: 2px;
+  /* 設置字母間距為 2px */
+
+  margin-left: 1rem;
+  object-fit: contain;
+}
+
+.btn-1 {
+  background: #ffe8f1;
+  color: #ff69a6;
+}
+
+.btn-2 {
+  background: #96bfff;
+  color: #68a3ff;
+}
+
+.btn-3 {
+  background: #68ff8e;
+  color: #29b14b;
+}
+
+.btn-4 {
+  background: #f5f753;
+  color: #b0b223;
+}
